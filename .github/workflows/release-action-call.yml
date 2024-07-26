@@ -12,10 +12,11 @@ jobs:
     uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: ALMLab
+      solution_name: sandyghactions
       #Update your values here
       BUILD_ENVIRONMENT_URL: https://org8a358135.crm.dynamics.com/
       PRODUCTION_ENVIRONMENT_URL: https://orgdff99ed2.crm.dynamics.com/
-      USERNAME: karenb@CRM503843.OnMicrosoft.com      
+      CLIENT_ID: d49dcfc5-c0dc-44f0-a0c2-ffe574bb9534
+      TENANT_ID: f03f009e-9a49-47d3-a3c4-ad6fdd46e3ba      
     secrets:
-      envSecret: ${{ secrets.password }}
+      envSecret: ${{ secrets.PowerPlatformSPN }}
