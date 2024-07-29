@@ -18,7 +18,7 @@ jobs:
       # Prod env
       # PRODUCTION_ENVIRONMENT_URL: https://orgdff99ed2.crm.dynamics.com/
       # Dynamics env
-      # PRODUCTION_ENVIRONMENT_URL: https://org9ca6eceb.crm.dynamics.com/
+      PRODUCTION_ENVIRONMENT_URL: https://org9ca6eceb.crm.dynamics.com/
       CLIENT_ID: d49dcfc5-c0dc-44f0-a0c2-ffe574bb9534
       TENANT_ID: f03f009e-9a49-47d3-a3c4-ad6fdd46e3ba      
     secrets:
